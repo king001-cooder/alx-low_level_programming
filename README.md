@@ -1,1 +1,1 @@
-This is my first commit in the alx-low-level programming
+This is my first C programming project.

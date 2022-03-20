@@ -6,15 +6,20 @@
 int main(void)
 {
 char ch = 'a';
-while (ch <= 'z')
+int i = 0;
+while (i < 16)
 {
-if (ch != 'e' && ch != 'q')
+if (i < 10)
 {
-putchar(ch);
+putchar(i + '0');
 }
+else
+{
 ch++;
+}
+i++;
 putchar('\n');
 }
-
+putchar(ch);
 return (0);
 }
